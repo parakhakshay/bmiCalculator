@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple BMI Calculator</title>
+
+    <style>
+
+        .block{
+
+            display: inline-block;
+            border: 2px solid rgb(83, 83, 83);
+            border-radius: 10px;
+            height: 400px;
+            width:450px;
+            
+           
+        }
+
+        .heading{
+
+            text-align: center;
+            text-transform: uppercase;
+            color:rgb(95, 160, 106);
+            
+        }
+
+        .secondHeading{
+
+            margin-left: 16px;
+            color: rgb(95, 160, 106);
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .height{
+
+            margin-left: 16px;
+            color: rgb(95, 160, 106);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .heightfield{
+            color: none;
+            display: inline-block;
+            border-radius: 8px;
+            border: 2px solid rgb(190, 194, 194);
+            width: 91%;
+            margin-left: 16px;
+            height: 20px;
+            
+        }
+
+        .heightfield:focus{
+            border: 2px solid cadetblue;
+            outline: none;
+
+        }
+
+
+
+        .weight{
+
+            margin-left: 16px;
+            color: rgb(95, 160, 106);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .weightfield{
+        
+            color: none;
+            display: inline-block;
+            border-radius: 8px;
+            border: 2px solid rgb(190, 194, 194);
+            width: 91%;
+            margin-left: 16px;
+            height: 20px;
+
+        }
+
+        .weightfield:focus{
+
+            
+            border: 2px solid cadetblue;
+            outline: none;
+
+        }
+        .button{
+            display: inline-block;
+            font-family: 'Poppins' , sans-serif;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-top: 30px;
+            margin-left: 16px;
+            background-color: #4c7aaf;
+            color: white;
+            border:2px solid transparent;
+            border-radius: 8px;
+            padding: 10px;
+            width: 93%;
+        }
+
+        .button:hover{
+
+            background-color:rgb(173, 135, 222);
+
+        }
+
+        .total{
+
+            margin-left: 16px;
+            color: rgb(95, 160, 106);
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="block">
+        <h2 class="heading">
+            BMI Calculator
+        </h2>
+            <P class="secondHeading">
+                Enter the Details below
+            </P>
+        
+            <P class="height">
+                Enter your height here
+            </P>
+            <input type="field" class="heightfield">
+
+            <P class="weight">
+              Enter your weight here
+            </P>
+
+            <input type="field" class="weightfield">
+
+            <button type="button" class="button">Calculate</button>
+      
+            <p class="total"> Your BMI is </p>
+
+        </div>
+
+
+</body>
+</html>
